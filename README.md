@@ -1,24 +1,46 @@
-# .
+# bootstrap-multiselect_rails
 
-TODO: Write a gem description
+This gem packages the [bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect) library for the Rails 3.1+ asset pipeline.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
-
-    gem '.'
+```
+  gem 'bootstrap-multiselect_rails', '~> 0.9.4'
+```
 
 And then execute:
+```bash
+  $ bundle
+```
 
-    $ bundle
+Or install it yourself:
+```bash
+  $ gem install bootstrap-multiselect_rails
+```
 
-Or install it yourself as:
+To start using the bootstrap-multiselect library in your rails application, enable it via the asset pipeline.
 
-    $ gem install .
+Add the following to your Javascript manifest file (`application.js`):
+```js
+//= require bootstrap-multiselect
+```
 
+Add the following to your stylesheet file:
+
+If you are using SCSS, modify your `application.css.scss`
+```scss
+@import 'bootstrap-multiselect';
+```
+
+If you're using just plain CSS, modify your `application.css`
+```css
+*= require bootstrap-multiselect
+```
 ## Usage
 
-TODO: Write usage instructions here
+Check out the documentation at: http://davidstutz.github.io/bootstrap-multiselect/
 
 ## Contributing
 
