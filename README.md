@@ -1,7 +1,8 @@
 # bootstrap-multiselect_rails
 
-This gem packages the [bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect) library for the Rails 3.1+ asset pipeline.
+[![Gem Version](https://badge.fury.io/rb/bootstrap-multiselect_rails.svg)](http://badge.fury.io/rb/bootstrap-multiselect_rails)
 
+This gem packages the [bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect) library for the Rails 3.1+ asset pipeline.
 
 ## Installation
 
